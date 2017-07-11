@@ -11,19 +11,24 @@ div { width: 50%; height: 50%; float: left; }
 
   background: url("https://upload.wikimedia.org/wikipedia/commons/1/10/GraceHopper2.jpg");
   background-position: top;
+  background-size: contain; 
+
 }
 
 #slideshow2 {
   background: url("https://upload.wikimedia.org/wikipedia/commons/1/10/GraceHopper2.jpg");
   background-position: bottom;
+  background-size: contain;
 }
 
 #slideshow3 {
   background: url("https://upload.wikimedia.org/wikipedia/commons/1/10/GraceHopper2.jpg");
   background-position: left;
+  background-size: contain;
 }
 
 #slideshow4 {
   background: url("https://upload.wikimedia.org/wikipedia/commons/1/10/GraceHopper2.jpg");
   background-position: right;
+  background-size: contain;
 }

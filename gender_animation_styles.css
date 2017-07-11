@@ -1,21 +1,34 @@
-body {
+/*body {
     background-color: white;
 }
-
+*/
 /* This code splits the page into 4 */
 html, body { height: 100%; padding: 0; margin: 0; }
 div { width: 50%; height: 50%; float: left; }
 
 /* Position of the slideshow */
-#slideshow {
-  margin: 0;
-  position: relative;
+#slideshow1 {
+
+  background: url("https://upload.wikimedia.org/wikipedia/commons/1/10/GraceHopper2.jpg");
+  background-position: top;
+  background-size: contain; 
+
 }
 
-/* Position of the image within the slideshow */
+#slideshow2 {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/1/10/GraceHopper2.jpg");
+  background-position: bottom;
+  background-size: contain;
+}
 
-#slideshow > div {
+#slideshow3 {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/1/10/GraceHopper2.jpg");
+  background-position: left;
+  background-size: contain;
+}
 
-  position: absolute;
-
+#slideshow4 {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/1/10/GraceHopper2.jpg");
+  background-position: right;
+  background-size: contain;
 }

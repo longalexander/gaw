@@ -1,0 +1,29 @@
+body {
+    background-color: white;
+}
+h1 {
+    color: red;
+}
+p {
+    color: red;
+}
+
+html, body { height: 100%; padding: 0; margin: 0; }
+div { width: 50%; height: 50%; float: left; }
+
+
+#slideshow {
+  margin: 0/*80px auto*/;
+  position: relative;
+}
+
+#slideshow > div {
+
+  position: absolute;
+  /*
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  */
+}

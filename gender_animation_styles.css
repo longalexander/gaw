@@ -4,28 +4,53 @@ html, body { height: 100%; padding: 0; margin: 0; }
 div { width: 50%; height: 50%; float: left; }
 
 /* Position of the slideshow */
-#slideshow1 {
-
-  background: no-repeat url("http://static5.businessinsider.com/image/53f779dc6bb3f7f305edb7b1-1190-625/a-young-steve-jobs-smelled-so-bad-he-had-to-be-put-on-the-night-shift-at-atari.jpg");
-  /*background-position: top;*/
+#Mslideshow {
   background-size: cover;
-
 }
 
-#slideshow2 {
-  background: no-repeat url("https://upload.wikimedia.org/wikipedia/commons/1/10/GraceHopper2.jpg");
-  /*background-position: bottom;*/
+#Mslideshow > div {
+  position: absolute;
+}
+
+#Wslideshow {
   background-size: cover;
+}
+
+#Wslideshow > div {
+  position: absolute;
 }
 
 #slideshow3 {
-  background: no-repeat url("https://upload.wikimedia.org/wikipedia/commons/1/10/GraceHopper2.jpg");
-  /*background-position: left;*/
   background-size: cover;
 }
 
+#slideshow3 > div {
+  position: absolute;
+}
+
 #slideshow4 {
-  background: no-repeat url("http://static5.businessinsider.com/image/53f779dc6bb3f7f305edb7b1-1190-625/a-young-steve-jobs-smelled-so-bad-he-had-to-be-put-on-the-night-shift-at-atari.jpg");
-  /*background-position: right;*/
   background-size: cover;
 }
+
+#slideshow4 > div {
+  position: absolute;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Male and female class properties */
+/*
+div.m {
+  content:url("https://thinkmarketingmagazine.com/wp-content/uploads/2013/06/steve-jobs.jpg");
+  content:url("http://media.gizmodo.co.uk/wp-content/uploads/2013/12/alan-turing.jpg");
+}
+
+div.w {
+  content:url("https://upload.wikimedia.org/wikipedia/commons/1/10/GraceHopper2.jpg");
+  content:url("http://discov-her.com/system/images/pictures/000/000/798/fb/fwis-loreal-le-dr-anita-borg-brise-les-barrieres-et-s-engage-pour-les-informaticiennes-798.jpg");
+}
+*/

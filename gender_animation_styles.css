@@ -8,6 +8,11 @@ div { width: 50%; height: 50%; float: left; }
   background-size: cover;
 }
 
+#slideshow1 > div {
+  position: absolute;
+}
+
+
 #slideshow2 {
   background-size: cover;
 }
@@ -20,10 +25,14 @@ div { width: 50%; height: 50%; float: left; }
   background-size: cover;
 }
 
+/* Male and female class properties */
+
 div.m {
   content:url("https://thinkmarketingmagazine.com/wp-content/uploads/2013/06/steve-jobs.jpg");
+  content:url("http://media.gizmodo.co.uk/wp-content/uploads/2013/12/alan-turing.jpg");
 }
 
 div.w {
   content:url("https://upload.wikimedia.org/wikipedia/commons/1/10/GraceHopper2.jpg");
+  content:url("http://discov-her.com/system/images/pictures/000/000/798/fb/fwis-loreal-le-dr-anita-borg-brise-les-barrieres-et-s-engage-pour-les-informaticiennes-798.jpg");
 }

@@ -4,19 +4,19 @@ html, body { height: 100%; padding: 0; margin: 0; }
 div { width: 50%; height: 50%; float: left; }
 
 /* Position of the slideshow */
-#slideshow1 {
+#Mslideshow {
   background-size: cover;
 }
 
-#slideshow1 > div {
+#Mslideshow > div {
   position: absolute;
 }
 
-#slideshow2 {
+#Wslideshow {
   background-size: cover;
 }
 
-#slideshow2 > div {
+#Wslideshow > div {
   position: absolute;
 }
 

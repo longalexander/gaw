@@ -1,25 +1,25 @@
 /* slideshow1 */
-$("#slideshow1 > div:gt(0)").hide();
+$("#Mslideshow > div:gt(0)").hide();
 
 setInterval(function() {
-  $('#slideshow1 > div:first')
+  $('#Mslideshow > div:first')
     .fadeOut(1000)
     .next()
     .fadeIn(1000)
     .end()
-    .appendTo('#slideshow1');
+    .appendTo('#Mslideshow');
 }, 3000);
 
 /* slideshow2 */
-$("#slideshow2 > div:gt(0)").hide();
+$("#Wslideshow > div:gt(0)").hide();
 
 setInterval(function() {
-  $('#slideshow2 > div:first')
+  $('#Wslideshow > div:first')
     .fadeOut(1000)
     .next()
     .fadeIn(1000)
     .end()
-    .appendTo('#slideshow2');
+    .appendTo('#Wslideshow');
 }, 3000);
 
 /* slideshow3 */

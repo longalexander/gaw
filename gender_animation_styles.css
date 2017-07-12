@@ -1,5 +1,4 @@
 
-*/
 /* This code splits the page into 4 */
 html, body { height: 100%; padding: 0; margin: 0; }
 div { width: 50%; height: 50%; float: left; }
@@ -9,7 +8,7 @@ div { width: 50%; height: 50%; float: left; }
 
   background: no-repeat url("http://static5.businessinsider.com/image/53f779dc6bb3f7f305edb7b1-1190-625/a-young-steve-jobs-smelled-so-bad-he-had-to-be-put-on-the-night-shift-at-atari.jpg");
   /*background-position: top;*/
-  background-size: cover; 
+  background-size: cover;
 
 }
 

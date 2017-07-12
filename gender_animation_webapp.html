@@ -10,7 +10,61 @@
 
 <!-- First div -->
 <div id="slideshow1">
-   
+   <!-- <input id="number" placeholder = "Men" type="number" min = 0 >
+   <input id="number" placeholder = "Women" type="number" min =0> -->
+
+   <!-- Simple pop-up dialog box, containing a form -->
+  <dialog id="genderDialog">
+    <form method="dialog">
+      <section>
+        <p><label for="genderCount">GenderCount:</label>
+        <!-- <select id="Men" name="Men"> -->
+        	<input id="number" placeholder = "Men" type="number" min = 0 >
+   			  <input id="number" placeholder = "Women" type="number" min = 0>
+          <input id="number" placeholder = "Other" type="number" min = 0>
+        <!-- </select></p> -->
+      </section>
+      <menu>
+        <button id="cancel" type="reset">Cancel</button>
+        <button type="submit">Confirm</button>
+      </menu>
+    </form>
+  </dialog>
+
+  <menu>
+    <button 
+      id="updateImages" style= "background-color: transparent; border: none ">Update Images </button>
+  </menu>
+
+  <script>
+    (function() {
+      var updateButton = document.getElementById('updateImages');
+      var cancelButton = document.getElementById('cancel');
+      var dialog = document.getElementById('genderDialog');
+      dialog.returnValue = 'genderBalance';
+
+      function openCheck(dialog) {
+        if(dialog.open) {
+          console.log('Dialog open');
+        } else {
+          console.log('Dialog closed');
+        }
+      }
+
+      // Update button opens a modal dialog
+      updateButton.addEventListener('click', function() {
+        dialog.showModal();
+        openCheck(dialog);
+      });
+
+      // Form cancel button closes the dialog box
+      cancelButton.addEventListener('click', function() {
+        dialog.close('animalNotChosen');
+        openCheck(dialog);
+      });
+
+    })();
+  </script>
 </div>
 
 <!-- Second div -->
@@ -28,5 +82,9 @@
    
 </div>
 
+
+
 </body>
 </html>
+
+
